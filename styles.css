@@ -1,0 +1,132 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #301e4e;
+    font-family: poppins;
+}
+
+.header{
+    background-color: #ff6e6c;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 50px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+
+
+.main {
+    padding: 0 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.judul {
+    padding: 10px;
+}
+
+.about {
+    background-color: #463366;
+    padding: 10px;
+    width: 100%;
+}
+
+.project{
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+    gap: 10%;
+    padding-top: 40px;
+}
+
+.gambarprojek{
+    width: 30%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    
+}
+
+.contact {
+    background-color: #463366;
+    padding: 10px;
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form textarea {
+    font-family: poppins;
+}
+
+.btn{
+    padding: 12px 24px;
+    border-radius: 6px;
+    background: #F9BC60;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 187px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.formtext{
+    width: 30%;
+    min-width: 250px;
+    height: 46px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    display: block;
+    padding: 10px;
+    background-color: #ff6e6c;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h2 {
+    color: #FFFFFF;
+}
+
+.menu{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 250;
+    padding-top: 20px;
+}

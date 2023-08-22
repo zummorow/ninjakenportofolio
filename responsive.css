@@ -1,0 +1,24 @@
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .header {
+      gap: 10px;
+      font-size: small;
+    }
+
+    footer {
+        font-size: small;
+    }
+
+    .menu {
+        font-size: small;
+    }
+
+    .about {
+        font-size: small;
+    }
+}
+
+/* Untuk Tab */
+@media all and (max-width: 1000px) {
+    
+}
