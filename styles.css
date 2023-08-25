@@ -2,6 +2,14 @@
     box-sizing:border-box;
 }
 
+h1, p {
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -23,7 +31,7 @@ body{
 
 
 .main {
-    padding: 0 20px;
+    padding: 0;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -33,7 +41,7 @@ body{
 }
 
 .judul {
-    padding: 10px;
+    margin: 40px 0px;
 }
 .judul h1{
     color: #FFFFFE;
@@ -43,13 +51,26 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-bottom: 15px;
+    
+}
+
+.judul p {
+    color: #ABD1C6;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .about {
     background-color: #463366;
     padding: 10px;
     width: 100%;
+}
+
+.about p {
+    margin-bottom: 40px;
 }
 
 .project{
@@ -68,7 +89,7 @@ body{
 }
 
 .gambarprojek{
-    width: 30%;
+    width: 25%;
     max-width: 300px;
     margin-bottom: 20px;
     
@@ -128,6 +149,11 @@ footer {
 
 footer h2 {
     color: #FFFFFF;
+    padding-left: 40px;
+}
+
+footer p {
+    margin-bottom: 10px;
 }
 
 .menu{
@@ -137,4 +163,5 @@ footer h2 {
     font-style: normal;
     font-weight: 250;
     padding-top: 20px;
+    padding-right: 40px;
 }
