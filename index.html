@@ -42,10 +42,96 @@
         <div class="project" id="section2">
             <h2>Contoh Project</h2>
             <div class="container">
-                <img class="gambarprojek" src="1.png" alt="gambar 1">
-                <img class="gambarprojek" src="2.png" alt="gambar 2">
-                <img class="gambarprojek" src="3.png" alt="gambar 3">
+                <a class="prev" onclick="updateSlide(-1)">&#10094;</a>
+                <div class="slider">
+                    <div class="slide">
+                        <img class="gambarprojek" src="1.png" alt="gambar 1" id="openModalButton1">
+                    </div>
+                    <div class="slide">
+                        <img class="gambarprojek" src="2.png" alt="gambar 2" id="openModalButton2">
+                    </div>
+                    <div class="slide">
+                        <img class="gambarprojek" src="3.png" alt="gambar 3" id="openModalButton3">
+                    </div>
+                </div>
+                <a class="next" onclick="updateSlide(1)">&#10095;</a>
             </div>
+            
+            <div id="myModal1">
+                <div id="modalContent1">
+                    <span id="closeModalIcon1">&times;</span>
+                    <div  id="imgModal1">
+                        <p style="color: black; padding-bottom: 10px;">Gambar Gunung Satu</p>
+                        <img src="1.png" alt="" width="400px">
+                        <p style="color: black; padding-top: 20px;" >
+                            Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry. Lorem 
+                            Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer 
+                            took a galley of type and scrambled it to make a type 
+                            specimen book. It has survived not only five 
+                            centuries, but also the leap into 
+                            electronic typesetting, remaining 
+                            essentially unchanged. It was popularised 
+                            in the 1960s with the release of Letraset 
+                            sheets containing Lorem Ipsum passages, 
+                            and more recently with desktop publishing software 
+                            like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="myModal2">
+                <div id="modalContent2">
+                    <span id="closeModalIcon2">&times;</span>
+                    <div  id="imgModal2">
+                        <p style="color: black; padding-bottom: 10px;">Gambar Gunung Dua</p>
+                        <img src="2.png" alt="" width="400px">
+                        <p style="color: black; padding-top: 20px;" >
+                            Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry. Lorem 
+                            Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer 
+                            took a galley of type and scrambled it to make a type 
+                            specimen book. It has survived not only five 
+                            centuries, but also the leap into 
+                            electronic typesetting, remaining 
+                            essentially unchanged. It was popularised 
+                            in the 1960s with the release of Letraset 
+                            sheets containing Lorem Ipsum passages, 
+                            and more recently with desktop publishing software 
+                            like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="myModal3">
+                <div id="modalContent3">
+                    <span id="closeModalIcon3">&times;</span>
+                    <div  id="imgModal3">
+                        <p style="color: black; padding-bottom: 10px;">Gambar Gunung Tiga</p>
+                        <img src="3.png" alt="" width="400px">
+                        <p style="color: black; padding-top: 20px;" >
+                            Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry. Lorem 
+                            Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer 
+                            took a galley of type and scrambled it to make a type 
+                            specimen book. It has survived not only five 
+                            centuries, but also the leap into 
+                            electronic typesetting, remaining 
+                            essentially unchanged. It was popularised 
+                            in the 1960s with the release of Letraset 
+                            sheets containing Lorem Ipsum passages, 
+                            and more recently with desktop publishing software 
+                            like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div class="contact" id="section3">
@@ -54,6 +140,24 @@
                 <input type="email" class="formtext" placeholder="Email (Diperlukan)">  
                 <textarea name="message" id="message" cols="30" rows="10" class="formtext" placeholder="Message (Diperlukan)"></textarea>
                 <input type="submit" class="btn">
+            </div>
+        </div>
+
+        <div class="faq" id="section4">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="containerfaq">
+                <button class="accordion">Bahasa Pemrograman yang di kuasai</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius alias at sunt dolorum quas tempora totam magni quidem fugiat veritatis, laboriosam dignissimos vitae doloremque nostrum praesentium quo sequi porro nam?</p>
+                    </div>
+                <button class="accordion">Sertifikat yang pernah di dapat</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi libero officiis vel mollitia adipisci quaerat cupiditate rem, iusto, minus soluta corporis esse laborum ipsa distinctio magnam maxime commodi eaque minima.</p>
+                    </div>
+                <button class="accordion">Bahasa komunikasi yang di kuasai</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ducimus magnam aut tempore laborum provident molestiae vitae omnis vel rerum ad et, laboriosam quod architecto ipsam accusamus at dolor repellendus.</p>
+                    </div>
             </div>
         </div>
     </div>
@@ -67,5 +171,6 @@
             <p><a href="#section3"> Hubungi Saya</a></p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
