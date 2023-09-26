@@ -77,3 +77,20 @@ const accordion = document.getElementsByClassName("accordion");
       }
     });
   }
+
+  //Verifikasi input Email
+  const emaiInput = document.getElementById("emailInput");
+  const emailError = document.getElementById("emailError");
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  emailInput.addEventListener("input", ()=>{
+    const email = emailInput.value;
+    if (!emailRegex.test(email)){
+      emailError.textContent = "Masukan alamat email yang valid. | Conton Email : ninjaken@gmail.com";
+      emailInput.classList.add("invalid");
+
+    } else {
+      emailError.textContent = "";
+      emaiInput.classList.remove("invalid");
+    }
+  });
